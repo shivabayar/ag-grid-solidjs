@@ -6,7 +6,6 @@ import 'ag-grid-community/styles/ag-theme-alpine.css';
 import { columnDefs, rowData } from './colDef';
 import VanillaGrid from './vanillaGrid';
 const defaultColDef = {
-  autoHeight: true,
   flex: 1,
   floatingFilter: true,
   minWidth: 150,
